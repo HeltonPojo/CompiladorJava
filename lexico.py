@@ -46,7 +46,7 @@ def appendTokensEncotrados(palavra_tkn, lista_tokens, linha, index):
                         throwError(linha, palavra_tkn, index)
             tokens_encontrados.append((45, palavra_tkn, linha, index))
         # is octal 46
-        elif palavra_tkn[0] == "0" or (palavra_tkn[1] == "0" and palavra_tkn[0] == "-"):
+        elif palavra_tkn[0] == "0" or (palavra_tkn[0] == "-" and palavra_tkn[1] == "0"):
             if palavra_tkn[0] == "-":
                 appendTokensEncotrados(palavra_tkn[0], lista_tokens, linha, index)
                 index = index + 1

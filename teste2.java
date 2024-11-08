@@ -52,3 +52,4 @@ nomeIdent
 -0xA3E58
 -032176412
 nomeIdent9.palavra
+∑
