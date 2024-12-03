@@ -49,7 +49,7 @@ nomeIdent
 12
 -12
 12.90
+-12.90
 -0xA3E58
 -032176412
 nomeIdent9.palavra
-∑

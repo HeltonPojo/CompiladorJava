@@ -11,8 +11,12 @@
 - [x] Reconhecer identificadores
 - [x] Reconhecer String
 - [x] Colocar linha e coluna nos erros
-- [ ] Realizar o tratamento de número negativo
-  - [ ] float
+- [x] Realizar o tratamento de número negativo
+  - [x] float
   - [x] int
-  - [ ] hex
-  - [ ] octa
+  - [x] hex
+  - [x] octa
+- [x] Criar a classe inicial para o Analizador Sintatico
+- [x] Criar a função consome
+- [x] Criar a função de construir a biblioteca de tokens
+- [ ] Trasformar a gramatica nas funções
