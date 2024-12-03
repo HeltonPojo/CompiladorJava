@@ -4,7 +4,7 @@ Esse projeto é um trabalho de compiladores no qual o objetivo é desenvolver um
 
 # Etapas
 
-## - [x] Analisador Lexico
+- [x] Analisador Lexico
 
 Desenvolver uma classe capaz de de dado um código de entrada retorna uma lista de tuplas no seguinte formato:
 `[(tokenId, lexema, linha, coluna)]`
