@@ -91,6 +91,8 @@ def parser(arquivo, lista_tokens):
                     tokens_encontrados.append((43, codecs.decode(string_lex, "unicode-escape"), linha_atual, index - (len(string_lex) - 1)))
                     string_lex = ""
                 elif caracter == '"' and aspas_abertas == "":
+                    appendTokensEncotrados(palavra, lista_tokens, linha_atual, index - len(palavra))
+                    palavra = ""
                     aspas_abertas = caracter
                     string_lex += caracter
                 elif aspas_abertas != "":
